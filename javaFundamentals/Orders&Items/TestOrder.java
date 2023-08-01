@@ -42,9 +42,9 @@ public class TestOrder {
         order2.setReady(true);
 
       
-        System.out.printf("Name: %s\n", order1.getName());
+        System.out.printf("Name: %s\n", order4.getName());
         System.out.printf("Total: %.2f\n", order4.getTotal());
-        System.out.printf("Ready: %s\n", order1.isReady());
+        System.out.printf("Ready: %s\n", order4.isReady());
         order2.setReady(true);
     }
 }
